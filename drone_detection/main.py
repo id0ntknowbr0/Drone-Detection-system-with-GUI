@@ -3,7 +3,6 @@ import os
 from PySide6.QtWidgets import QApplication
 from ui.main_window import MainWindow
 
-# Hide pygame welcome message
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
 if __name__ == "__main__":
@@ -11,3 +10,4 @@ if __name__ == "__main__":
     win = MainWindow()
     win.show()
     sys.exit(app.exec())
+
